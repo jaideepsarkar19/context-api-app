@@ -120,7 +120,7 @@ const FormFill = () => {
             />
           
         </div><hr/>
-            {/* id label and input box */}
+            
        <Form.Item
         name="id"
         label="ID"
@@ -133,7 +133,7 @@ const FormFill = () => {
       >
         <Input disabled />
       </Form.Item>
-      {/* name label and input box */}
+     
        <Form.Item
         name="name"
         label="Name"
@@ -145,7 +145,7 @@ const FormFill = () => {
       >
         <Input disabled={state==null?false:state.action=='view'?true:false} />
       </Form.Item>
-      {/* gender selection dropdown and input box */}
+      
       <Form.Item
         name="gender"
         label="Gender"
@@ -185,7 +185,7 @@ const FormFill = () => {
           ) : null
         }
       </Form.Item>
-      {/* age form item and input box */}
+     
       <Form.Item
         name='age'
         label="Age"
@@ -200,7 +200,7 @@ const FormFill = () => {
       >
         <InputNumber disabled={state==null?false:state.action=='view'?true:false}/>
         </Form.Item>
-       {/* class slection box and input box */}
+       
         <Form.Item
         name='class'
         label="Class"
